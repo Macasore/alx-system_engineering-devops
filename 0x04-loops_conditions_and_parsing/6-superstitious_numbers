@@ -19,7 +19,6 @@ case $a in
 	((a++))
 	;;
 *)
-	echo "$a"
 	((a++))
 	;;
 esac
