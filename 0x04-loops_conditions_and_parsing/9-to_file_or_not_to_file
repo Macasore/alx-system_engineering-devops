@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# gives information about the school file
 
 if [ -e school ]; then
   echo "school file exists"
