@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# script prints numbers with their superstitious statement
+
+a=1
+while [ $a -le 20 ]
+do
+case $a in
+4)
+	echo "bad luck from China"
+	((a++))
+	;;
+9)
+	echo "bad luck from Japan"
+	((a++))
+	;;
+17)
+	echo "bad luck from Italy"
+	((a++))
+	;;
+*)
+	echo "$a"
+	((a++))
+	;;
+esac
+done
