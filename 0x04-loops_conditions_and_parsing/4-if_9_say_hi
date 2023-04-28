@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# displays "Best School" 10times but for the 9th iteration displays "Best School"
+#+ and then "Hi"
+
+a=0
+while [ $a -ne 10 ]
+do
+if [ $a -eq 8 ]
+then
+	echo "Hi";
+	echo "Best School";
+	((a++));
+else
+	echo "Best School";
+	((a++));
+fi
+done
