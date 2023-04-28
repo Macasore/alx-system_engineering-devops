@@ -6,12 +6,12 @@ a=0
 while [ $a -ne 10 ]
 do
 if [ $a -eq 8 ]
-then
-	echo "Hi";
-	echo "Best School";
-	((a++));
-else
-	echo "Best School";
-	((a++));
-fi
+	then
+		echo "Hi";
+		echo "Best School";
+		((a++));
+	else
+		echo "Best School";
+		((a++));
+	fi
 done
